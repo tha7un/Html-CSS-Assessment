@@ -1,0 +1,220 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.body{
+      width:100%;
+      background-color: darkblue;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(70, 70, 70);
+}
+.menu ul{
+    display: flex;
+    color: whitesmoke;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+}
+.li a {
+    color: whitesmoke;
+}
+.logo{
+    border: 2px solid rgb(107, 107, 214);
+    color: whitesmoke;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+}
+.first-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color:rgb(7, 4, 31);
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.my-intro h2 {
+    color:white;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.my-intro p {
+    color: whitesmoke;
+    margin: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.my-intro button{
+    background-color: rgb(71, 98, 218);
+    text-align: center;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 10%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color:lightslategrey
+}
+.second-section p {
+    color:lightgrey;
+    font-family:Arial;  
+}
+.hero {
+       align-items: center;
+}
+.hero img{
+      width: 500px;
+      height: 500px;
+      margin: 40px;
+}
+.my-info{
+    margin: 30px;
+    line-height: 1.5;
+    font-family:Arial;
+    font-weight: 100;
+    padding: 20px;
+}
+.my-info h3 {
+            color: azure;
+            padding: 5px; 
+}
+.third-section{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content:space-evenly;
+    background-color:rgb(67, 67, 87);
+    height: 200px;
+    
+}
+.third-section >div{
+    margin: 30px;
+    background-color:lightslategray;
+    padding: 25px 100px;
+    border-radius: 20px;
+}
+.third-section img {
+    width: 90px;
+    height: 90px;
+}
+.fourth-section { 
+                width: 80%;
+                margin: auto;
+                background-color:lightslategrey;
+}
+.fourth-section img {
+             height: 300px;
+             width:  500px;
+}
+.myprojects {
+    margin-left: 100px;
+    padding-top: 30px;
+}
+.myprojects h2{
+           margin-left: 5px;
+           margin-bottom: 5px   ;
+}
+.cards{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 20px;
+    color:lightgrey;
+    font-family:Arial;  
+    line-height: 1.5;
+    padding: auto;
+}
+.cards h3 {
+            color: white;
+            font-family: Arial;
+}
+.cards p {
+    font-weight:500;
+}
+.backyard{
+          padding: 10px 120px;
+}
+/* .backyard p {
+    padding: 5px;
+} */
+.fifth-section{
+    display:flex;
+    height: 600px;
+    width: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:darkgray;
+}
+.fifth-section img{
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+}
+.fifth-section >div{
+    background-color: rgb(67, 67, 87);
+    border-radius: 20px;
+    height: 400px;
+    width: 400px;
+}
+.fifth-section h2{
+     color: white;
+     padding-left: 20px;
+}
+.fifth-section p {
+    padding: 20px;
+    font-size: 20px;
+    color:slategray;
+    font-family: Arial;
+}
+.progress {
+    background-image:url("./nature-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+.progress{
+    display: flex;
+    justify-content:space-evenly;
+    /* margin-top: 20px; */
+    color:lightgrey;
+    font-family:Arial;  
+    line-height: 1.5;
+    padding: 50px;
+}
+.progress img{
+      height: 70px;
+      width: 70px;
+      align-items: center;
+}
+footer{
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+    background-color: slategray;
+    text-align: center;
+}
+.final-foot{
+    width: 80%;
+    margin: auto;
+    background-color:rgb(57, 75, 177);
+    display: flex;
+    justify-content: space-evenly;
+    height: 150px;
+    align-items: center;
+}
+.final-foot >div{
+           color: antiquewhite;
+}
